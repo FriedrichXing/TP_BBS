@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TP实例BBS</title>
+
+    <!--引入文件-->
+    <link href="__PUBLIC__/CSS/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="__PUBLIC__/CSS/signin.css" rel="stylesheet">
+
+    <style type="text/css">
+        body{
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-header">
+        <h1>TP实例BBS
+            <small>{$board.name}版块</small>
+        </h1>
+    </div>
+
+    <table class="table">
+        <foreach name="post" item="vo">
+            <tr>
+                <td>第{$key}帖：</td>
+                <td><a href="__MODULE__/Post/index/id/{$vo.id}">{$vo.text}</a></td>
+                <td>楼主：{$vo.author}</td>
+            </tr>
+        </foreach>
+    </table>
+    {$page}
+</body>
+</html>

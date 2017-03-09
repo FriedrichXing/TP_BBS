@@ -1,0 +1,677 @@
+[ 2017-03-06T09:57:25+08:00 ] ::1 /TP_BBS/index.php/Home/Broad/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+ERR: 无法加载控制器:Broad
+
+[ 2017-03-06T09:57:40+08:00 ] ::1 /TP_BBS/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-03-06T09:57:49+08:00 ] ::1 /TP_BBS/index.php/Home/Broad/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 无法加载控制器:Broad
+
+[ 2017-03-06T09:58:10+08:00 ] ::1 /TP_BBS/index.php/Home/Board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `think_board` [ RunTime:0.0430s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\UPUPW_AP5.6\htdocs\TP_BBS\Application\Home\Controller\BoardController.class.php on line 28 and defined D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `think_board`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-03-06T09:59:30+08:00 ] ::1 /TP_BBS/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-03-06T13:04:09+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addData
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+SQL: SHOW COLUMNS FROM `think_board` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_board` (`name`) VALUES ('PHP'),('Python'),('JAVA'),('C'),('C++'),('Perl'),('Ruby'),('HTML') [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.054003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.054003s ]
+
+[ 2017-03-06T13:04:33+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('1','111111','ewen'),('1','222222','ewen'),('1','333333','ewen'),('1','444444','ewen'),('1','555555','ewen'),('1','666666','ewen'),('1','777777','ewen'),('1','888888','ewen') [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2017-03-06T13:05:08+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+ERR: 参数错误或者未定义:id
+
+[ 2017-03-06T13:05:13+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 参数错误或者未定义:id
+
+[ 2017-03-06T13:05:17+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`own`,`author`) VALUES ('1','的咖啡','1','ewen'),('1','萨哈萨克','1','ewen'),('1','都玩腻了','1','ewen'),('1','的的健康撒娇','1','ewen'),('1','大了看得','1','ewen'),('1','加快立法解放立刻','1','ewen'),('1','莫斯科我们我哭了','1','ewen') [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-03-06T13:05:20+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`own`,`author`) VALUES ('1','的咖啡','2','ewen'),('1','萨哈萨克','2','ewen'),('1','都玩腻了','2','ewen'),('1','的的健康撒娇','2','ewen'),('1','大了看得','2','ewen'),('1','加快立法解放立刻','2','ewen'),('1','莫斯科我们我哭了','2','ewen') [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-03-06T13:05:22+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`own`,`author`) VALUES ('1','的咖啡','3','ewen'),('1','萨哈萨克','3','ewen'),('1','都玩腻了','3','ewen'),('1','的的健康撒娇','3','ewen'),('1','大了看得','3','ewen'),('1','加快立法解放立刻','3','ewen'),('1','莫斯科我们我哭了','3','ewen') [ RunTime:0.1140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-03-06T13:05:25+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`own`,`author`) VALUES ('1','的咖啡','4','ewen'),('1','萨哈萨克','4','ewen'),('1','都玩腻了','4','ewen'),('1','的的健康撒娇','4','ewen'),('1','大了看得','4','ewen'),('1','加快立法解放立刻','4','ewen'),('1','莫斯科我们我哭了','4','ewen') [ RunTime:0.0500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013001s ]
+
+[ 2017-03-06T13:05:27+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`own`,`author`) VALUES ('1','的咖啡','5','ewen'),('1','萨哈萨克','5','ewen'),('1','都玩腻了','5','ewen'),('1','的的健康撒娇','5','ewen'),('1','大了看得','5','ewen'),('1','加快立法解放立刻','5','ewen'),('1','莫斯科我们我哭了','5','ewen') [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-03-06T13:05:29+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`own`,`author`) VALUES ('1','的咖啡','6','ewen'),('1','萨哈萨克','6','ewen'),('1','都玩腻了','6','ewen'),('1','的的健康撒娇','6','ewen'),('1','大了看得','6','ewen'),('1','加快立法解放立刻','6','ewen'),('1','莫斯科我们我哭了','6','ewen') [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-03-06T13:05:31+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`own`,`author`) VALUES ('1','的咖啡','7','ewen'),('1','萨哈萨克','7','ewen'),('1','都玩腻了','7','ewen'),('1','的的健康撒娇','7','ewen'),('1','大了看得','7','ewen'),('1','加快立法解放立刻','7','ewen'),('1','莫斯科我们我哭了','7','ewen') [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-03-06T13:05:34+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`own`,`author`) VALUES ('1','的咖啡','8','ewen'),('1','萨哈萨克','8','ewen'),('1','都玩腻了','8','ewen'),('1','的的健康撒娇','8','ewen'),('1','大了看得','8','ewen'),('1','加快立法解放立刻','8','ewen'),('1','莫斯科我们我哭了','8','ewen') [ RunTime:0.0390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2017-03-06T13:05:39+08:00 ] ::1 /TP_BBS/index.php/Home/Post/addpost?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`own`,`author`) VALUES ('1','的咖啡','9','ewen'),('1','萨哈萨克','9','ewen'),('1','都玩腻了','9','ewen'),('1','的的健康撒娇','9','ewen'),('1','大了看得','9','ewen'),('1','加快立法解放立刻','9','ewen'),('1','莫斯科我们我哭了','9','ewen') [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2017-03-06T13:06:16+08:00 ] ::1 /TP_BBS/index.php/Home/Board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_board` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\UPUPW_AP5.6\htdocs\TP_BBS\Application\Home\Controller\BoardController.class.php on line 28 and defined D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `think_board`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-03-06T13:06:19+08:00 ] ::1 /TP_BBS/index.php/Home/Board/detail/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_board` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_board` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_post` WHERE ( board=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_post` WHERE ( board=1 ) LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-03-06T13:06:21+08:00 ] ::1 /TP_BBS/index.php/Home/Post/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_post` WHERE ( own = 0 and id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_post` WHERE ( own = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_post` WHERE ( own = 1 ) LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-03-06T13:06:23+08:00 ] ::1 /TP_BBS/index.php/Home/Post/index/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_post` WHERE ( own = 0 and id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_post` WHERE ( own = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_post` WHERE ( own = 2 ) LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-03-06T13:06:27+08:00 ] ::1 /TP_BBS/index.php/Home/Board/detail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_board` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_board` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_post` WHERE ( board=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_post` WHERE ( board=3 ) LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2017-03-06T13:06:30+08:00 ] ::1 /TP_BBS/index.php/Home/Board/detail/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_board` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_board` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_post` WHERE ( board=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_post` WHERE ( board=2 ) LIMIT 0,8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-03-06T13:07:20+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+ERR: 参数错误或者未定义:aa
+
+[ 2017-03-06T13:07:24+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('2','111111','ewen'),('2','222222','ewen'),('2','333333','ewen'),('2','444444','ewen'),('2','555555','ewen'),('2','666666','ewen'),('2','777777','ewen'),('2','888888','ewen') [ RunTime:0.1580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2017-03-06T13:07:27+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('3','111111','ewen'),('3','222222','ewen'),('3','333333','ewen'),('3','444444','ewen'),('3','555555','ewen'),('3','666666','ewen'),('3','777777','ewen'),('3','888888','ewen') [ RunTime:0.0580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-03-06T13:07:30+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('4','111111','ewen'),('4','222222','ewen'),('4','333333','ewen'),('4','444444','ewen'),('4','555555','ewen'),('4','666666','ewen'),('4','777777','ewen'),('4','888888','ewen') [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-03-06T13:07:32+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0330s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('5','111111','ewen'),('5','222222','ewen'),('5','333333','ewen'),('5','444444','ewen'),('5','555555','ewen'),('5','666666','ewen'),('5','777777','ewen'),('5','888888','ewen') [ RunTime:0.2110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-03-06T13:07:34+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('6','111111','ewen'),('6','222222','ewen'),('6','333333','ewen'),('6','444444','ewen'),('6','555555','ewen'),('6','666666','ewen'),('6','777777','ewen'),('6','888888','ewen') [ RunTime:0.1860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2017-03-06T13:07:36+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0100s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('7','111111','ewen'),('7','222222','ewen'),('7','333333','ewen'),('7','444444','ewen'),('7','555555','ewen'),('7','666666','ewen'),('7','777777','ewen'),('7','888888','ewen') [ RunTime:0.0960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-03-06T13:07:38+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('8','111111','ewen'),('8','222222','ewen'),('8','333333','ewen'),('8','444444','ewen'),('8','555555','ewen'),('8','666666','ewen'),('8','777777','ewen'),('8','888888','ewen') [ RunTime:0.0410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-03-06T13:07:42+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('7','111111','ewen'),('7','222222','ewen'),('7','333333','ewen'),('7','444444','ewen'),('7','555555','ewen'),('7','666666','ewen'),('7','777777','ewen'),('7','888888','ewen') [ RunTime:0.0400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-03-06T13:07:42+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('6','111111','ewen'),('6','222222','ewen'),('6','333333','ewen'),('6','444444','ewen'),('6','555555','ewen'),('6','666666','ewen'),('6','777777','ewen'),('6','888888','ewen') [ RunTime:0.0420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2017-03-06T13:07:42+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('5','111111','ewen'),('5','222222','ewen'),('5','333333','ewen'),('5','444444','ewen'),('5','555555','ewen'),('5','666666','ewen'),('5','777777','ewen'),('5','888888','ewen') [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-03-06T13:07:42+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('4','111111','ewen'),('4','222222','ewen'),('4','333333','ewen'),('4','444444','ewen'),('4','555555','ewen'),('4','666666','ewen'),('4','777777','ewen'),('4','888888','ewen') [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-03-06T13:07:42+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0050s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('3','111111','ewen'),('3','222222','ewen'),('3','333333','ewen'),('3','444444','ewen'),('3','555555','ewen'),('3','666666','ewen'),('3','777777','ewen'),('3','888888','ewen') [ RunTime:0.0260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-03-06T13:07:43+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost?aa=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: INSERT INTO `think_post` (`board`,`text`,`author`) VALUES ('2','111111','ewen'),('2','222222','ewen'),('2','333333','ewen'),('2','444444','ewen'),('2','555555','ewen'),('2','666666','ewen'),('2','777777','ewen'),('2','888888','ewen') [ RunTime:0.1350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2017-03-06T13:07:44+08:00 ] ::1 /TP_BBS/index.php/Home/Board/addDataPost
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+ERR: 参数错误或者未定义:aa
+
+[ 2017-03-06T13:07:47+08:00 ] ::1 /TP_BBS/index.php/Home/Board/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `think_board` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\UPUPW_AP5.6\htdocs\TP_BBS\Application\Home\Controller\BoardController.class.php on line 28 and defined D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\UPUPW_AP5.6\htdocs\TP_BBS\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `think_board`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-03-06T13:07:48+08:00 ] ::1 /TP_BBS/index.php/Home/Board/detail/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `think_board` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_board` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_post` WHERE ( board=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_post` WHERE ( board=2 ) LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-03-06T13:07:49+08:00 ] ::1 /TP_BBS/index.php/Home/Post/index/id/72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_post` WHERE ( own = 0 and id = 72 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_post` WHERE ( own = 72 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_post` WHERE ( own = 72 ) LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-03-06T13:07:52+08:00 ] ::1 /TP_BBS/index.php/Home/Post/index/id/73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `think_post` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_post` WHERE ( own = 0 and id = 73 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_post` WHERE ( own = 73 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `think_post` WHERE ( own = 73 ) LIMIT 0,8   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+

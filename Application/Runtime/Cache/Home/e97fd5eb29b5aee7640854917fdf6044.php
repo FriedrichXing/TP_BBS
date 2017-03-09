@@ -1,0 +1,38 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TP实例BBS注册页面</title>
+
+    <!--引入文件-->
+    <link href="/TP_BBS/Public/CSS/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="/TP_BBS/Public/CSS/signin.css" rel="stylesheet">
+</head>
+<body>
+
+    <form name="myform" action="/TP_BBS/Home/User/checkreg" method="post" class="form-signin" role="form">
+        <h2 class="form-signin-heading">TP实例BBS</h2>
+        <input name="email" type="text" class="form-control" placeholder="帐号" autofocus>
+        <input name="xin" type="hidden">
+        <input name="pwd" type="password" class="form-control" placeholder="密码">
+        <button id="btn_login" class="btn btn-lg btn-primary btn-block">注册</button>
+    </form>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            var btn_login = document.getElementById('btn_login');
+            btn_login.onclick = function () {
+                if(document.myform.email.value == ""){
+                    alert('用户名不能为空！');
+                    document.myform.email.focus();
+                    return false;
+                } else if(document.myform.pwd.value == ""){
+                    alert('密码不能为空！');
+                    document.myform.pwd.focus();
+                    return false;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
